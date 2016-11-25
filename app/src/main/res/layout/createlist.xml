@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_itemname"
+        android:hint="Item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_task"/>
+    <EditText
+        android:id="@+id/editText_itemcost"
+        android:hint="Cost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_itemname"/>
+    <EditText
+        android:id="@+id/editText_itemamount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:layout_below="@+id/editText_itemcost"/>
+
+    <Button
+        android:text="Submit Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_db" />
+
+    <Button
+        android:text="Go Back to List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goback" />
+
+</LinearLayout>
